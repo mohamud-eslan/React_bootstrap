@@ -12,7 +12,7 @@ const TaskTracker = () => {
     <header>
          <h1>number {count} and my age is {age}</h1>
          <button onClick={handleClick}>clic</button>
-         <button onClick={()=> setName(name)}>check</button>
+         <button onClick={()=> setName(name)}>click</button>
     </header>
   )
 }
