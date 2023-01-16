@@ -10,8 +10,10 @@ const TaskTracker = () => {
     const changeAge = ()=>{
       setAge((preAge) => preAge + 2)
     }
+    const name = 'mohamud'
   return (
     <header>
+        <h1>hi {name}</h1>
          <h1>number {count} and my age is {age}</h1>
          <button onClick={handleClick}>clic</button>
          <button onClick={changeAge}>click</button>
